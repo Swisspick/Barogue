@@ -16,26 +16,26 @@ CLS
 if %race% == 1 (
   ECHO ******************************
   ECHO             HUMAN
-  ECHO ******************************                                   
-  ECHO                           .':::::'    
-  ECHO      ';;;;;;;;::;;:::;;;:;;,''''::.   
-  ECHO    .lc;;,;,,.             .,'.  :x.   
-  ECHO    ,x, '::.    .       .;.':;.  :x.   
-  ECHO    ;d'  ...   .o,     .dx. ,.   :x.   
-  ECHO   ,d,    :c   .x;     :k, .dc   :x.   
-  ECHO   ;x.    ,;   'x;     :x.  ;'   :x.   
-  ECHO   ;x.         'x;     :d.       :x.   
-  ECHO   ;x.       .cc;.     ,xl.      :x.   
-  ECHO   :x.       ;k,        :x'      :x.   
-  ECHO  .l:.       ;x,        :x'      :x.   
-  ECHO  cd.        .cc;::::::;cc.      :x.   
-  ECHO  :d.                            :x.   
-  ECHO  .:;'.        ...'':l::'       .co.   
-  ECHO    .;:;'.    .,::::c,..    .,:::,.    
-  ECHO       .,::'             .;:;'.        
-  ECHO          .,;;'      .;;;;'            
-  ECHO             .,;;,;:;;,.               
-  ECHO                ..                    
+  ECHO ******************************
+  ECHO                           .':::::'
+  ECHO      ';;;;;;;;::;;:::;;;:;;,''''::.
+  ECHO    .lc;;,;,,.             .,'.  :x.
+  ECHO    ,x, '::.    .       .;.':;.  :x.
+  ECHO    ;d'  ...   .o,     .dx. ,.   :x.
+  ECHO   ,d,    :c   .x;     :k, .dc   :x.
+  ECHO   ;x.    ,;   'x;     :x.  ;'   :x.
+  ECHO   ;x.         'x;     :d.       :x.
+  ECHO   ;x.       .cc;.     ,xl.      :x.
+  ECHO   :x.       ;k,        :x'      :x.
+  ECHO  .l:.       ;x,        :x'      :x.
+  ECHO  cd.        .cc;::::::;cc.      :x.
+  ECHO  :d.                            :x.
+  ECHO  .:;'.        ...'':l::'       .co.
+  ECHO    .;:;'.    .,::::c,..    .,:::,.
+  ECHO       .,::'             .;:;'.
+  ECHO          .,;;'      .;;;;'
+  ECHO             .,;;,;:;;,.
+  ECHO                ..
   ECHO ******************************
   ECHO DAMAGE 5
   ECHO HEALTH 5
@@ -44,21 +44,21 @@ if %race% == 1 (
   if %race% == 2 (
     ECHO ******************************
     ECHO             APE
-    ECHO ******************************	                                        
-	ECHO           ..'''''''';;,.     .'.      
-	ECHO  ;c:c,.';,'....     ..,cl, .,:cc.     
-	ECHO ;o. 'ol:'               ':;;:. c:     
-	ECHO ;l.  ..       .  ..           ;o'     
-	ECHO .:l:'    .,. .c..cl' .,.  .';lc.      
-	ECHO   .';:.      ,c..ckc      ,o:.        
-	ECHO      :;    .',.  .,cl'    ,c.         
-	ECHO      ,:.  .l:'c::c;'cx'   :c          
-	ECHO      cc.  .;:cllc:;'.   .l,          
-	ECHO       'l.   ..,;;,,..    ;l.          
-	ECHO       .ll. .c;''''''c,  ,o,           
-	ECHO        .;:,..''''''''..co'            
-	ECHO          .,:;'''''''';:,.       
-	ECHO ******************************		
+    ECHO ******************************
+	ECHO           ..'''''''';;,.     .'.
+	ECHO  ;c:c,.';,'....     ..,cl, .,:cc.
+	ECHO ;o. 'ol:'               ':;;:. c:
+	ECHO ;l.  ..       .  ..           ;o'
+	ECHO .:l:'    .,. .c..cl' .,.  .';lc.
+	ECHO   .';:.      ,c..ckc      ,o:.
+	ECHO      :;    .',.  .,cl'    ,c.
+	ECHO      ,:.  .l:'c::c;'cx'   :c
+	ECHO      cc.  .;:cllc:;'.   .l,
+	ECHO       'l.   ..,;;,,..    ;l.
+	ECHO       .ll. .c;''''''c,  ,o,
+	ECHO        .;:,..''''''''..co'
+	ECHO          .,:;'''''''';:,.
+	ECHO ******************************
     ECHO DAMAGE 7
     ECHO HEALTH 2
     ECHO DODGE  10
@@ -89,22 +89,22 @@ if %race% == 1 (
         if %race% == 4 (
 			ECHO ******************************
 			ECHO               RAT
-			ECHO ******************************								
-			ECHO    ..;c::c:.           .:c:c,       
-			ECHO  ;do:c;..,xd'.........:xo,.;dd'     
-			ECHO cx,       .c::::::::::c'    .;l.    
-			ECHO ox.                           ll    
-			ECHO .xx:.                ';.     ;x,    
-			ECHO  .lKl   .c:          'c.    .l,     
-			ECHO    ll    ..                  ll     
-			ECHO   .l;   .,;;...      .  .;;;.;x;    
-			ECHO   lc    .,,;.;o. .;..o;  .;,'.ll    
-			ECHO   :x'   .;::'.;:;oOd:;.  .:;;.ll    
-			ECHO    cx,        .';ldl,.      .'dl    
-			ECHO     lx,       .;c;.;c,....,:::c'    
-			ECHO      ,c::::::::::::col:::;'.        
-			ECHO        ..............               
-			ECHO ******************************								
+			ECHO ******************************
+			ECHO    ..;c::c:.           .:c:c,
+			ECHO  ;do:c;..,xd'.........:xo,.;dd'
+			ECHO cx,       .c::::::::::c'    .;l.
+			ECHO ox.                           ll
+			ECHO .xx:.                ';.     ;x,
+			ECHO  .lKl   .c:          'c.    .l,
+			ECHO    ll    ..                  ll
+			ECHO   .l;   .,;;...      .  .;;;.;x;
+			ECHO   lc    .,,;.;o. .;..o;  .;,'.ll
+			ECHO   :x'   .;::'.;:;oOd:;.  .:;;.ll
+			ECHO    cx,        .';ldl,.      .'dl
+			ECHO     lx,       .;c;.;c,....,:::c'
+			ECHO      ,c::::::::::::col:::;'.
+			ECHO        ..............
+			ECHO ******************************
 			ECHO DAMAGE 3
 			ECHO HEALTH 3
 			ECHO DODGE  15
@@ -113,26 +113,26 @@ if %race% == 1 (
               ECHO ******************************
               ECHO            PINGUIN
               ECHO ******************************
-			  ECHO 	.',:cccccclxOdcccxd'            
-			  ECHO    ,xOl.       ,c.   'dOd,          
-			  ECHO .;c;..                 'oOd'        
-			  ECHO ,kx'                      .kO.       
-			  ECHO ok.     ..             .'. ck'       
-			  ECHO ox.   .:kc            'dx. ck'       
-			  ECHO ox.    ..              ..  ck'       
-			  ECHO ox.                  ....  ck'       
-			  ECHO ox.               .coOXX0l.ck'       
-			  ECHO ox.           .okkXMMMMMXl.ck'       
-			  ECHO ox.          'xNMMWWWWOo:. cO'       
-			  ECHO ox.         'OWMMW0ool.    cO'       
-			  ECHO ox.          lNMMMWNNNk,   cO'       
-			  ECHO ox.          .:xOOOKWMM0:. cO'       
-			  ECHO ox.                .:cc,   ck'       
-			  ECHO ox.                        cO'       
-			  ECHO .ccccccccccccccccccccllllccl;.       
-			  ECHO   ..........................         
-			  
-			  
+			  ECHO     .',:cccccclxOdcccxd'
+			  ECHO    ,xOl.       ,c.   'dOd,
+			  ECHO .;c;..                 'oOd'
+			  ECHO ,kx'                      .kO.
+			  ECHO ok.     ..             .'. ck'
+			  ECHO ox.   .:kc            'dx. ck'
+			  ECHO ox.    ..              ..  ck'
+			  ECHO ox.                  ....  ck'
+			  ECHO ox.               .coOXX0l.ck'
+			  ECHO ox.           .okkXMMMMMXl.ck'
+			  ECHO ox.          'xNMMWWWWOo:. cO'
+			  ECHO ox.         'OWMMW0ool.    cO'
+			  ECHO ox.          lNMMMWNNNk,   cO'
+			  ECHO ox.          .:xOOOKWMM0:. cO'
+			  ECHO ox.                .:cc,   ck'
+			  ECHO ox.                        cO'
+			  ECHO .ccccccccccccccccccccllllccl;.
+			  ECHO   ..........................
+
+
               ECHO DAMAGE 2
               ECHO HEALTH 10
               ECHO DODGE  10
