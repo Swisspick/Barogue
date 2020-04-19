@@ -1,7 +1,7 @@
 :WHILE
 
 ECHO **********************
-ECHO *  DUNGEON  CRAWLER  *
+ECHO *  DUNGEON  BAROGUE  *
 ECHO **********************
 ECHO [1] Start Adventure
 ECHO [2] Close Game

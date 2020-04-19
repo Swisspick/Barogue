@@ -10,6 +10,9 @@ call character_design.bat
 :: Choose Equipment
 call character_equipment.bat
 
+:: Start of Game
+call dungeon.bat
+
 
 :: TESTING AREA
 call character.bat
