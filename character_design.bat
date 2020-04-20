@@ -9,6 +9,7 @@ ECHO [2] Ape
 ECHO [3] Pig
 ECHO [4] Rat
 ECHO [5] Pinguin
+ECHO [6] Sylvia
 
 SET /p race=
 CLS
@@ -137,7 +138,8 @@ if %race% == 1 (
               ECHO HEALTH 10
               ECHO DODGE  10
               ) ELSE (
-                GOTO WHILE
+
+                )
                 )
               )
             )
