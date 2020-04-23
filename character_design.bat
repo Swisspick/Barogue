@@ -9,7 +9,6 @@ ECHO [2] Ape
 ECHO [3] Pig
 ECHO [4] Rat
 ECHO [5] Pinguin
-ECHO [6] Sylvia
 
 SET /p race=
 CLS
@@ -114,38 +113,36 @@ if %race% == 1 (
               ECHO ******************************
               ECHO            PINGUIN
               ECHO ******************************
-			  ECHO     .',:cccccclxOdcccxd'
-			  ECHO    ,xOl.       ,c.   'dOd,
-			  ECHO .;c;..                 'oOd'
-			  ECHO ,kx'                      .kO.
-			  ECHO ok.     ..             .'. ck'
-			  ECHO ox.   .:kc            'dx. ck'
-			  ECHO ox.    ..              ..  ck'
-			  ECHO ox.                  ....  ck'
-			  ECHO ox.               .coOXX0l.ck'
-			  ECHO ox.           .okkXMMMMMXl.ck'
-			  ECHO ox.          'xNMMWWWWOo:. cO'
-			  ECHO ox.         'OWMMW0ool.    cO'
-			  ECHO ox.          lNMMMWNNNk,   cO'
-			  ECHO ox.          .:xOOOKWMM0:. cO'
-			  ECHO ox.                .:cc,   ck'
-			  ECHO ox.                        cO'
-			  ECHO .ccccccccccccccccccccllllccl;.
-			  ECHO   ..........................
-
+      			  ECHO     .',:cccccclxOdcccxd'
+      			  ECHO    ,xOl.       ,c.   'dOd,
+      			  ECHO .;c;..                 'oOd'
+      			  ECHO ,kx'                      .kO.
+      			  ECHO ok.     ..             .'. ck'
+      			  ECHO ox.   .:kc            'dx. ck'
+      			  ECHO ox.    ..              ..  ck'
+      			  ECHO ox.                  ....  ck'
+      			  ECHO ox.               .coOXX0l.ck'
+      			  ECHO ox.           .okkXMMMMMXl.ck'
+      			  ECHO ox.          'xNMMWWWWOo:. cO'
+      			  ECHO ox.         'OWMMW0ool.    cO'
+      			  ECHO ox.          lNMMMWNNNk,   cO'
+      			  ECHO ox.          .:xOOOKWMM0:. cO'
+      			  ECHO ox.                .:cc,   ck'
+      			  ECHO ox.                        cO'
+      			  ECHO .ccccccccccccccccccccllllccl;.
+      			  ECHO   ..........................
 
               ECHO DAMAGE 2
               ECHO HEALTH 10
               ECHO DODGE  10
               ) ELSE (
-
-                )
+                GOTO WHILE
                 )
               )
             )
           )
         )
-
+      )
 ECHO ******************************
 ECHO DO YOU WANT TO CONTINUE?
 ECHO [1] Continue

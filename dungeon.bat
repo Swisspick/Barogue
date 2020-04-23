@@ -26,19 +26,22 @@ SET /p filler=""
 set /a random_room=%RANDOM% * 3 / 32768 + 1
 ECHO %random_room%
 
-SET /p filler=""
-
+SET temp_random_room=%random_room%
 CLS
+GOTO RANDOM_CHECK
+
+:: MAKES IT IMPOSSIBLE TO HAVE THE SAME LEVEL TWICE
+:RANDOM_CHECK
+IF %temp_random_room% == %random_room% (
+  set /a random_room=%RANDOM% * 3 / 32768 + 1
+  GOTO RANDOM_CHECK
+)
 GOTO ROOM_SELECT
 
-
+:: DEPENDING ON THE RANDOM NUMBER, CHOOSES DUNGEON LEVEL
 :ROOM_SELECT
 if %random_room% EQU 1 (
   GOTO DUNGEON_STANDARD
-
-
-SET /p filler=""
-
 )
 
 if %random_room% EQU 2 (
@@ -49,7 +52,7 @@ IF %random_room% EQU 3 (
   GOTO DUNGEON_EMPTY
 )
 
-
+:: LEVEL DESIGN OF DUNGEONS
 :DUNGEON_STANDARD
 call player_stats
 ECHO ---------------
@@ -103,41 +106,5 @@ SET /p choice=""
 CLS
 GOTO CHOICE
 
-
+:: OUTPUT DEPENDING ON INPUT GIVEN
 :CHOICE
-
-IF %random_room% == 1 (
-  IF %choice% == 1 (
-    ECHO YOURE ATTACKING THE Kobold
-    SET /p filler=""
-    CLS
-    GOTO ROOM_SELECT
-  ) ELSE (
-    IF %choice% == 9 (
-      ECHO YOUR OPENING YOUR Inventory
-      SET /p filler=""
-      CLS
-      GOTO ROOM_SELECT
-    )
-  )
-) ELSE (
-  IF %random_room% == 2 (
-    IF %choice% == 3 (
-      ECHO YOUR OPENING THE CHEST
-      SET /p filler=""
-      CLS
-      GOTO ROOM_SELECT
-    )
-    ECHO ROOM 2
-    SET /p filler=""
-    CLS
-    GOTO ROOM_SELECT
-  ) ELSE (
-    IF %random_room% == 3 (
-      ECHO ROOM 3
-      SET /p filler=""
-      CLS
-      GOTO ROOM_SELECT
-    )
-  )
-)
